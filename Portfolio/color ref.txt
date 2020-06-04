@@ -1,0 +1,4 @@
+light pink - #dd176b
+dark purple - #6e1d57
+dark grey - #d3d5d8
+light grey - #ebeded

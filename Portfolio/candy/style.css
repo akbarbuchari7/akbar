@@ -1,0 +1,59 @@
+body{
+	font-family: 'Muli', sans-serif;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-weight: 300;
+    line-height: 1;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #6e1d57;
+	margin-bottom: 2px;
+}
+
+p{
+	color: #505050;
+}
+
+body{
+	background-color: pink;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+section{
+	min-height: 50vh;
+}
+
+@media (max-width: 800px){
+
+	h1{
+		font-size:1.5rem;
+	}
+
+	p{
+		font-size: 0.7rem;
+	}
+
+	svg{
+		width: 2rem;
+		height: 2rem;
+	}
+}
+
+@media (max-width: 545px){
+
+	section.container-fluid{
+		max-height: 100vh;
+	}
+}
+
+#mainNavbar .navbar-brand{
+	color: red;
+}
+
+#mainNavbar .nav-link{
+	color: red;
+}

@@ -1,0 +1,85 @@
+body{
+	background-color: #ebeded;
+	font-family: 'Muli', sans-serif;
+	font-color:  #343a40;
+}
+
+#mainNavbar{
+	background-color: #6e1d57;
+}
+
+h1{
+	font-size: 6rem;
+	font-weight: 300;
+    line-height: 1;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h2{
+	font-size: 5rem;
+	font-weight: 200;
+    line-height: 1;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.purple{
+	color : #6e1d57;
+}
+
+.pink{
+	color : #dd176b;
+}
+
+.subHeading{
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.socialIcon{
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.leftColumn{
+	color: white;
+	background-color :#6e1d57;
+	min-height: 100vh;
+}
+
+.rightColumn{
+	background-color: red;
+}
+
+hr{
+	border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+#sideBar{
+	background-color: blue;
+	vertical-align: center;
+	min-height: 100vh;
+}
+
+.contentSpace{
+	display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    min-height: 100vh;
+}
+
+navbar-item a:hover {
+  color: red;
+}
