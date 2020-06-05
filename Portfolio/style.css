@@ -11,40 +11,72 @@ body{
 h1{
 	font-size: 6rem;
 	font-weight: 300;
-    line-height: 1;
+	line-height: 1;
 	font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 h2{
 	font-size: 5rem;
 	font-weight: 200;
-    line-height: 1;
+	line-height: 1;
+	color : #dd176b;
 	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h4{
+	font-size: 1.5rem;
+	font-weight: 200;
+	line-height: 1;
+	color : #dd176b;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+p{
+	text-align: justify;
+}
+
+.sub-h4{
+	font-size: 1rem; 
+	font-weight: 100;
+	line-height: 1;
+	color : #dd176b;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	text-align: right;
 }
 
 .purple{
 	color : #6e1d57;
 }
 
+.black{
+	color : #010101;
+}
+
 .pink{
-	color : #dd176b;
+	color: #dd176b;
 }
 
 .subHeading{
 	font-family: 'Saira Extra Condensed', sans-serif;
+	color : #6e1d57;
 }
 
 .socialIcon{
 	display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem;
-    width: 3.5rem;
-    background-color: #495057;
-    color: #fff;
-    border-radius: 100%;
-    font-size: 1.5rem;
-    margin-right: 1.5rem;
+	align-items: center;
+	justify-content: center;
+	height: 3.5rem;
+	width: 3.5rem;
+	background-color: #495057;
+	color: #fff;
+	border-radius: 100%;
+	font-size: 1.5rem;
+	margin-right: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.galleryIcon{
+	text-align: center;
 }
 
 .leftColumn{
@@ -59,8 +91,8 @@ h2{
 
 hr{
 	border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    overflow: visible;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	overflow: visible;
 }
 
 #sideBar{
@@ -71,15 +103,39 @@ hr{
 
 .contentSpace{
 	display: flex;
-    align-items: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    max-width: 75rem;
-    min-height: 100vh;
+	align-items: center;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	max-width: 100%;
+	min-height: 100vh;
 }
 
-navbar-item a:hover {
-  color: red;
+.contentSpaceEducation{
+	/*display: flex-inline;*/
+	align-items: center;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	max-width: 100%;
+	min-height: 100vh;
+}
+
+.imgHover{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.hoverAble:hover .imgHover {
+	opacity: 0.8;
+}
+
+.textCenter{
+	text-align: center;
 }
