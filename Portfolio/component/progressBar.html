@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Front end coding interview question - Build a progress bar
+	 https://www.youtube.com/watch?v=WrSRGzQeN2o -->
+	<title>Progress Bar</title>
+
+	<style>
+		body{
+			background-color: lightblue;
+		}
+
+		.barContainer{
+			height: 30px;
+			width: 500px;
+			background-color: blue;
+			margin-left: 20px;
+		}
+
+		.bar{
+			background-color: green;
+			height: 100%;
+			width: 0;
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="barContainer">
+		<div class="bar"></div>
+	</div>
+
+	<button onclick="fillBar(50)">start</button>
+
+	<script>
+		function fillBar(seconds){
+			const bar = document.querySelector('.bar');
+			bar.style.transition = `${seconds} linear width`
+			bar.style.width = '100%';
+		}
+	</script>
+
+</body>
+</html>
